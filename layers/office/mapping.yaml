@@ -1,0 +1,21 @@
+
+tables:
+
+  # etldoc: imposm3 -> osm_office_point
+  office_point:
+    type: geometry
+    columns:
+    - name: osm_id
+      type: id
+    - name: geometry
+      type: geometry
+    - name: name
+      key: name
+      type: string
+    type_mappings:
+      points:
+        office:
+        - __any__
+      polygons:
+        office:
+        - __any__

@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  generate-vectortiles:
+    environment:
+      BBOX: 87.4842650,20.3756582,92.7328596,27.2527675
+      OSM_MAX_TIMESTAMP: '2020-06-08T18:59:58Z'
+      OSM_AREA_NAME: asia/bangladesh
+      MIN_ZOOM: 0
+      MAX_ZOOM: 14

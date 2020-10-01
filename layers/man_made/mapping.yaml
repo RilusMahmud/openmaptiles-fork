@@ -1,0 +1,21 @@
+
+tables:
+
+  # etldoc: imposm3 -> osm_man_made_point
+  man_made_point:
+    type: geometry
+    columns:
+    - name: osm_id
+      type: id
+    - name: geometry
+      type: geometry
+    - name: name
+      key: name
+      type: string
+    type_mappings:
+      points:
+        man_made:
+        - __any__
+      polygons:
+        man_made:
+        - __any__

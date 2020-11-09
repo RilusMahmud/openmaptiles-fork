@@ -2,11 +2,6 @@
 # imposm3 mapping file for https://github.com/osm2vectortiles/imposm3
 # Warning: this is not the official imposm3
 
-# office values , see https://taginfo.openstreetmap.org/keys/office#values
-#def_poi_mapping_office: &poi_mapping_office
-#  - company
-#  - government
-
 # aerialway values , see http://taginfo.openstreetmap.org/keys/aerialway#values
 def_poi_mapping_aerialway: &poi_mapping_aerialway
   - station

@@ -16,7 +16,7 @@ SELECT
     geometry,
     name
 FROM osm_office_point
-WHERE zoom_level >= 14
+WHERE zoom_level >= 12
   AND geometry && bbox;
 $$ LANGUAGE SQL IMMUTABLE
                 PARALLEL SAFE;

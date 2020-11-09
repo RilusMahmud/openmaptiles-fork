@@ -15,7 +15,7 @@ tables:
     type_mappings:
       points:
         office:
-        - __any__
+        - government
       polygons:
         office:
-        - __any__
+        - government
